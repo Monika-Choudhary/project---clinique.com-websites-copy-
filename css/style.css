@@ -32,7 +32,7 @@ main h3 {
 /*colors:  #adddb8 (mint),  whitesmoke*/
 
 body {
-  background-color: #adddb8;
+  background-color: whitesmoke;
 }
 
 /*header part1*/
@@ -68,6 +68,12 @@ header ul {
 }
 
 /*main-part*/
+
+.first_paragraph{
+  background-color:#adddb8 ;
+  display: flex;
+  justify-content: center;
+}
 
 main > section:nth-of-type(1) p {
   display: flex;
