@@ -1,0 +1,122 @@
+/*Schriftarten*/
+
+@font-face {
+  font-family: jp;
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: sawarabi;
+  src: url(../fonts/Sawarabi_Gothic/SawarabiGothic-Regular.ttf);
+}
+
+@font-face {
+  font-family: guppo;
+  src: url(../fonts/Gruppo/Gruppo-Regular.ttf);
+}
+body {
+  font-family: jp;
+}
+
+header:nth-of-type(2) ul:nth-of-type(2) {
+  font-family: sawarabi;
+  font-weight: bold;
+  font-size: large;
+}
+
+main h3 {
+  font-family: gruppo;
+  font-size: x-large;
+  font-weight: lighter;
+}
+
+/*colors:  #adddb8 (mint),  whitesmoke*/
+
+body {
+  background-color: #adddb8;
+}
+
+/*header part1*/
+
+body > header:nth-of-type(1) > section:nth-of-type(1) > p {
+  display: flex;
+  justify-content: center;
+  margin-top: 20x;
+  margin-bottom: 20px;
+}
+
+/*header2*/
+
+ion-icon {
+  font-size: 30px;
+}
+
+header ul {
+  list-style: none; /*schaltet Listenpunkte aus*/
+}
+
+.imagefirst {
+  display: flex;
+  width: 250px;
+  height: 150px;
+}
+
+.container1 {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;
+}
+
+/*main-part*/
+
+main > section:nth-of-type(1) p {
+  display: flex;
+  justify-content: center;
+}
+
+.image2 {
+  display: flex;
+  width: 500px;
+  height: 500px;
+}
+
+/*Bilderreihe*/
+
+.container3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/*footer part*/
+
+footer ul {
+  list-style: none;
+}
+
+.container4 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;
+
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+/*Hyperlink Einstellungen*/
+
+a:link {
+  text-decoration: none;
+
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
