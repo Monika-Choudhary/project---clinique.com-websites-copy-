@@ -1,3 +1,10 @@
+/*colors:  #adddb8 (mint),  whitesmoke*/
+
+/* 
+ion-icon {
+  font-size: 30px;
+} */
+
 /*Schriftarten*/
 
 @font-face {
@@ -26,15 +33,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  ul {
+    list-style: none;
+  }
 }
 
-/*colors:  #adddb8 (mint),  whitesmoke*/
 
 /*header part*/
-/* 
-ion-icon {
-  font-size: 30px;
-} */
+
 
 .header {
   /* border: 2px solid blue; */
@@ -44,10 +50,6 @@ ion-icon {
   top: 0;
   width: 100%;
   left: 0;
-
-  ul {
-    list-style: none;
-  }
 }
 
 .nav-container_one {
@@ -146,25 +148,18 @@ ion-icon {
 
 /*footer part*/
 
-footer ul {
-  list-style: none;
+.footer-content {
+  border: 2px solid red;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    border: 2px solid blue;
+    height: 300px;
+  }
 }
-
-.footer-content{
-border: 2px solid red;
-height: 400px;
-display: flex;
-justify-content: center;
-padding: 30px auto;
-
-div
-
-
-}
-
-
-
-
 
 /*Hyperlink Einstellungen*/
 
