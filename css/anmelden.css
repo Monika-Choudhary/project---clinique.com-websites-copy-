@@ -8,57 +8,71 @@ ion-icon {
 /*Schriftarten*/
 
 @font-face {
-    font-family: jp;
-    src: url(../fonts/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf);
+  font-family: jp;
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: sawarabi-gothic;
+  src: url(../fonts/Sawarabi_Gothic/SawarabiGothic-Regular.ttf);
+}
+
+@font-face {
+  font-family: guppo;
+  src: url(../fonts/Gruppo/Gruppo-Regular.ttf);
+}
+
+body {
+  background-color: white;
+  font-family: jp;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  width: 100%;
+
+  ul {
+    list-style: none; /*removes the bullet points or numbering*/
+    padding: 0; /*removes the left padding that browsers often apply by default*/
+    margin: 0; /*removes the margin, which also helps get rid of any additional spacing around the list*/
   }
-  @font-face {
-    font-family: sawarabi-gothic;
-    src: url(../fonts/Sawarabi_Gothic/SawarabiGothic-Regular.ttf);
+}
+
+header {
+  /* border: 2px solid red; */
+  height: 80px;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid #cecdcde8;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.486);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: top 0.4s; /* Smooth transition for hiding */
+
+  img {
+    /* border: 2px solid blue; */
+    height: 100px;
   }
-  
-  @font-face {
-    font-family: guppo;
-    src: url(../fonts/Gruppo/Gruppo-Regular.ttf);
+}
+
+.content {
+  height: 1000px;
+  .block {
+    padding: 120px 200px;
   }
-  
-  body {
-    background-color: white;
-    font-family: jp;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    ul {
-      list-style: none; /*removes the bullet points or numbering*/
-      padding: 0; /*removes the left padding that browsers often apply by default*/
-      margin: 0; /*removes the margin, which also helps get rid of any additional spacing around the list*/
-    }
-  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
- footer {
- /* border: 2px solid red; */
- border-top: 1px solid #cecdcde8;
- padding-left: 40px;
+footer {
+  /* border: 2px solid red; */
+  border-top: 1px solid #cecdcde8;
+  padding-left: 40px;
   padding-right: 40px;
- p {
+  p {
     /* border: 2px solid orange; */
-   margin: 24px 0px 55px;
- 
+    margin: 24px 0px 55px;
+
     color: #525253;
-    }
   }
+}
