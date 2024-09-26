@@ -1,70 +1,42 @@
+/*colors:  #adddb8 (mint),  whitesmoke*/
+
+/* 
+ion-icon {
+  font-size: 30px;
+} */
+
 /*Schriftarten*/
 
 @font-face {
     font-family: jp;
     src: url(../fonts/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf);
-}
-@font-face {
-    font-family: sawarabi;
+  }
+  @font-face {
+    font-family: sawarabi-gothic;
     src: url(../fonts/Sawarabi_Gothic/SawarabiGothic-Regular.ttf);
-}
-
-@font-face {
+  }
+  
+  @font-face {
     font-family: guppo;
     src: url(../fonts/Gruppo/Gruppo-Regular.ttf);
-}
-body {font-family: jp;}
-
-header:nth-of-type(2) ul:nth-of-type(2){
-    font-family:sawarabi ;
-    font-weight: bold;
-    font-size:large;
-}
-
-main h3 {font-family: gruppo;
-font-size: x-large;
-font-weight: lighter;}
-
-/*colors:  #adddb8 (mint),  whitesmoke*/
-
-body {background-color:#adddb8 }
-
-/*header part1*/
-
-
-
-body > header:nth-of-type(1) > section:nth-of-type(1) > p {   
-    display: flex;
-    justify-content:center ;
-    margin-top: 20x;
-    margin-bottom: 20px;
-      }
-   
-/*header2*/
-
-ion-icon {font-size: 30px;}
-
-header ul {
-    list-style: none; /*schaltet Listenpunkte aus*/
-   
-   }
-
-   .imagefirst {
-    display:flex;
-    width: 250px;
-        height: 150px;
+  }
+  
+  body {
+    background-color: whitesmoke;
+    font-family: jp;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    ul {
+      list-style: none; /*removes the bullet points or numbering*/
+      padding: 0; /*removes the left padding that browsers often apply by default*/
+      margin: 0; /*removes the margin, which also helps get rid of any additional spacing around the list*/
     }
+  }
 
-.container1 {
-    background-color: whitesmoke; 
-    display:flex;
-    justify-content:flex-start; 
- gap: 100px
 
-      
-}
 
-  
 
 
 
@@ -76,36 +48,16 @@ header ul {
 
 
   
-/*footer part*/
 
-footer ul { list-style: none;}
-
-.container4 {
-    
-    display:flex;
-    justify-content:flex-start; 
-      gap: 100px;
-  
-    margin-bottom: 50px;
-    margin-top: 100px;
-}
-    
+/* 
+ footer {
+ border: 2px solid red;
+ height:100px;
  
-
-/*Hyperlink Einstellungen*/
-
-
-a:link {
-
-    text-decoration: none;
-  
-    color: black;
-  
-}
-
- a:visited {
-    color: black;
-}
- a:hover {
-    text-decoration: underline;
-}
+ p {
+    border: 2px solid orange;
+    height: 20px;
+ padding: 24px 0px 55px;
+    color: #525253;
+    }
+  } */
