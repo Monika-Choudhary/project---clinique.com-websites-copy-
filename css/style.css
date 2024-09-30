@@ -42,11 +42,10 @@ body {
 /*header part*/
 
 .header {
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   font-family: sawarabi-gothic;
   background-color: white;
   position: sticky;
-  /* flex-wrap: wrap; */
   top: 0;
   transition: top 0.3s; /* Smooth transition for hiding */
   padding-left: 40px;
@@ -219,6 +218,9 @@ a:hover {
     width: 100%;
   }
 
+  .header {
+    justify-content: center;
+  }
   .nav-container_one {
     display: none;
   }
