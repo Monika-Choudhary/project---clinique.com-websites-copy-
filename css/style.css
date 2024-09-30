@@ -21,17 +21,13 @@ ion-icon {
   src: url(../fonts/Gruppo/Gruppo-Regular.ttf);
 }
 
-main h3 {
-  font-family: gruppo;
-  font-size: x-large;
-  font-weight: lighter;
-}
-
-body {
-  /* border: 2px solid red; */
-  height: 200px;
+:root {
   background-color: white;
   font-family: jp;
+  width: 100%;
+}
+body {
+  /* border: 2px solid rgb(0, 255, 255); */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -50,22 +46,22 @@ body {
   font-family: sawarabi-gothic;
   background-color: white;
   position: sticky;
+  flex-wrap: wrap;
   top: 0;
   transition: top 0.3s; /* Smooth transition for hiding */
   padding-left: 40px;
   padding-right: 40px;
+  display: flex;
+  height: 100px;
 
   .logo {
     /* border: 2px solid purple; */
     height: 130px;
-    margin-top: -40px;
+    margin-top: -5px;
   }
 }
 
 .nav-container_one {
-  /* border: 2px solid red; */
-  height: 40px;
-
   ul {
     /* border: 2px solid pink; */
     width: 15%;
@@ -75,45 +71,28 @@ body {
     margin-top: 6px;
     justify-content: space-evenly;
     margin-right: 40px;
-  }
-
-  li:nth-of-type(1):before {
-    content: "\f002";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    margin-right: 5px;
-  }
-
-  li:nth-of-type(2):before {
-    content: "\f007";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    margin-right: 10px;
+    i {
+      margin-right: 10px;
+    }
   }
 }
 
 .nav-container_two {
-  /* border: 2px solid orange; */
-  height: 40px;
-  width: 70%;
-  margin-left: 240px;
-  margin-top: -75px;
-
   .nav-bar ul {
     /* border: 2px solid green; */
-    width: 100%;
+    width: 130%;
     display: flex;
     justify-content: space-around;
     font-size: 18px;
     font-weight: 500;
-    margin: 0;
+    margin-top: 60px;
   }
 }
 
-/*main-part*/
+/* main part */
 
-.main {
-  height: 1000px;
+main {
+  /* border: 2px solid blue; */
 }
 
 .first_paragraph {
@@ -152,9 +131,7 @@ body {
 }
 
 /*footer part*/
-footer {
-  position: fixed;
-}
+
 .footer-content {
   border-top: 1px solid #cecdcde8;
   border-bottom: 1px solid #cecdcde8;
@@ -216,12 +193,10 @@ footer {
   p {
     /* border: 2px solid orange; */
     height: 20px;
-    margin-left: 62%;
+    margin-left: 60%;
     color: #94949d;
   }
 }
-
-/*Hyperlink Einstellungen*/
 
 a:link {
   text-decoration: none;
@@ -235,3 +210,5 @@ a:visited {
 a:hover {
   text-decoration: underline;
 }
+
+
