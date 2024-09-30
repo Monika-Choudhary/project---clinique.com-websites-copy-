@@ -221,8 +221,46 @@ p {
     }
   }
 }
-.hover.text {
+
+#tooltip {
   font-weight: bold;
+  position: relative;
+  cursor: pointer;
+}
+
+.tooltip-content1 {
+  visibility: hidden;
+  width: 98%;
+  height: 82px;
+  background-color: #555555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position the tooltip above the text */
+  margin-left: -180px; /* Center the tooltip */
+  opacity: ;
+  transition: opacity 0.3s;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+
+  a:link {
+    color: #fff;
+    text-decoration: underline;
+    &:hover {
+      color: #fff;
+    }
+  }
+  a:visited {
+    color: #fff;
+  }
+}
+
+#tooltip:hover .tooltip-content1 {
+  visibility: visible;
+  opacity: 1;
 }
 
 .checkbox {
