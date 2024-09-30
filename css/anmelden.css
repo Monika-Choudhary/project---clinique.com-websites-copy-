@@ -30,6 +30,15 @@ body {
   flex-wrap: wrap;
   width: 100%;
 
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:visited {
+    color: black;
+  }
+
   ul {
     list-style: none; /*removes the bullet points or numbering*/
     padding: 0; /*removes the left padding that browsers often apply by default*/
@@ -44,7 +53,7 @@ body {
   top: 0;
   background-color: white;
   border-bottom: 1px solid #cecdcde8;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.486);
+  box-shadow: 0.1px 0.1px 9px rgba(0, 0, 0, 0.486);
   position: sticky;
   top: 0;
   width: 100%;
@@ -59,7 +68,75 @@ body {
 .main {
   height: 1000px;
   .block {
-    padding: 120px 200px;
+    border: 2px solid red;
+    padding: 100px 250px;
+  }
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: small;
+    button {
+      border: 1px solid rgba(0, 0, 0, 0.178);
+      width: 160px;
+      height: 25px;
+      background-color: white;
+      color: black;
+      font-family: sawarabi-gothic;
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 500;
+
+      &:hover {
+        border: 2px solid black;
+      }
+    }
+  }
+}
+
+form {
+  /* border: 2px solid blue; */
+
+  fieldset {
+    padding: 0;
+    margin: 0;
+    border: none;
+  }
+  label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+  }
+  input {
+    width: 17%;
+    height: 30px;
+    margin-bottom: 15px;
+  }
+  a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: small;
+    color: grey;
+
+    &:visited {
+      color: grey;
+    }
+    &:hover {
+      color: black;
+    }
+  }
+  button{
+    background-color: black;
+  color: white;
+  width: 10%;
+  height: 25px;
+  text-transform: uppercase;
+   
   }
 }
 
