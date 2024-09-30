@@ -68,9 +68,9 @@ body {
 .main {
   height: 1000px;
   .block {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 100px 250px;
-    }
+  }
 
   h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -87,6 +87,7 @@ body {
       border: 1px solid rgba(0, 0, 0, 0.178);
       width: 160px;
       height: 25px;
+      margin-left: 10px;
       background-color: white;
       color: black;
       font-family: sawarabi-gothic;
@@ -144,19 +145,102 @@ form {
     background-color: black;
     text-transform: uppercase;
     border: none;
-   
+
     a {
       font-size: 12px;
       color: white;
     }
-    
+
     a:visited {
       color: white;
     }
-    
+
     &:hover {
       background-color: rgba(0, 0, 0, 0.596);
     }
+  }
+}
+
+.oder-borderline {
+  border-bottom: 1px solid black;
+  height: 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.button-facebook {
+  /* border: 2px solid red; */
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  button {
+    background-color: #1877f2;
+    width: 250px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      /* border: 2px solid blue; */
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      width: 290px;
+    }
+
+    .fa-brands {
+      /* border: 2px solid red; */
+      margin-right: 10px;
+      font-size: 28px;
+      color: white;
+    }
+  }
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: small;
+
+  a:link {
+    color: gray;
+
+    &:hover {
+      color: black;
+    }
+  }
+}
+.hover.text {
+  font-weight: bold;
+}
+
+.checkbox {
+  /* border: 2px solid pink; */
+  display: flex;
+  gap: 15px;
+  justify-content: left;
+  align-items: center;
+  input {
+    border: 2px solid red;
+    width: 15px;
+    margin: 0;
+  }
+  label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: small;
+    color: #525253;
   }
 }
 
@@ -168,7 +252,6 @@ footer {
   p {
     /* border: 2px solid orange; */
     margin: 24px 0px 55px;
-
     color: #525253;
   }
 }
