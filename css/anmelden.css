@@ -262,7 +262,7 @@ p {
 #tooltip:hover .tooltip-content1,
 #tooltip:hover .tooltip-content2 {
   visibility: visible;
-  opacity: 1;
+  opacity: 1;  /*Transparenz für Tooltip-textfeld*/
 }
 
 .tooltip-content2 {
@@ -278,7 +278,6 @@ p {
   justify-content: left;
   align-items: center;
   input {
-    border: 2px solid red;
     width: 15px;
     margin: 0;
   }
@@ -298,6 +297,7 @@ footer {
   p {
     /* border: 2px solid orange; */
     margin: 24px 0px 55px;
-    color: #525253;
+    font-size: 14px;
+    color: #474747;
   }
 }
