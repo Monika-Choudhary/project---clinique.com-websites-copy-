@@ -26,6 +26,8 @@ ion-icon {
   font-family: jp;
   width: 100%;
 }
+
+
 body {
   /* border: 2px solid rgb(0, 255, 255); */
   margin: 0;
@@ -33,9 +35,9 @@ body {
   box-sizing: border-box;
 
   ul {
-    list-style: none; /*removes the bullet points or numbering*/
-    padding: 0; /*removes the left padding that browsers often apply by default*/
-    margin: 0; /*removes the margin, which also helps get rid of any additional spacing around the list*/
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
   }
 }
 
