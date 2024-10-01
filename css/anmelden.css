@@ -239,11 +239,11 @@ p {
   border-radius: 6px;
   padding: 10px 5px;
   position: absolute;
-  z-index: 1;
-  bottom: 125%; /* Position the tooltip above the text */
-  margin-left: -182px; /* Center the tooltip */
+  z-index: 1;  /* zur Sicherstellung der Sichtbarkeit des Tooltips über andere Elemente*/
+  bottom: 125%; /* Position des Tooltips oberhalb des Textes */
+  margin-left: -182px; /* Tooltip Position */
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.8s; /* transition zeit, */
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
 
@@ -262,7 +262,7 @@ p {
 #tooltip:hover .tooltip-content1,
 #tooltip:hover .tooltip-content2 {
   visibility: visible;
-  opacity: 1;  /*Transparenz für Tooltip-textfeld*/
+  opacity: 1;  /*Transparenz für Tooltip-Textfeld (je kleiner die Zahl, desto tranzparenter wird es)*/
 }
 
 .tooltip-content2 {
