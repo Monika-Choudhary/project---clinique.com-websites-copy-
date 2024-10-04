@@ -9,7 +9,5 @@ module.exports = {
         'guppo': ['Gruppo', 'san-serif'],
       },
     },
-  },
   plugins: [],
-}
-
+  }}

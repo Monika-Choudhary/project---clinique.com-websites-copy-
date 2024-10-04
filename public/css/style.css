@@ -94,7 +94,7 @@ header {
 /* main part */
 
 main {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 
   .first_paragraph {
     background-color: #adddb8;
@@ -105,7 +105,7 @@ main {
   /*makeup picture content*/
 
   .makeup-content {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 90%;
     display: flex;
     justify-content: center;
@@ -135,9 +135,9 @@ main {
 /*footer part*/
 
 .footer-content {
+  /* border: 2px solid red; */
   border-top: 1px solid #cecdcde8;
   border-bottom: 1px solid #cecdcde8;
-  border: 2px solid red;
   height: 400px;
   display: flex;
   justify-content: center;
@@ -147,7 +147,7 @@ main {
   gap: 40px;
 
   div {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 14%;
     height: 350px;
     color: #39424e;
@@ -169,7 +169,7 @@ main {
 }
 
 .footer-content_two {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   height: 80px;
   justify-content: center;
@@ -182,7 +182,7 @@ main {
   }
 
   .link-icons {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -193,7 +193,7 @@ main {
   }
 
   p {
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     height: 20px;
     margin-left: 60%;
     color: #94949d;
