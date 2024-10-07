@@ -8,6 +8,9 @@ module.exports = {
         'sawagothic': ['sawarabi-gothic', 'san-serif'],
         'guppo': ['Gruppo', 'san-serif'],
       },
+      colors: {
+       'clinique-green': '#adddb8',
+      }
     },
   plugins: [],
   }}

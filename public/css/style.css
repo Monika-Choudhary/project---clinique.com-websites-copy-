@@ -92,9 +92,9 @@ header {
 } */
 
 /* main part */
-
+/* 
 main {
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
 
   .first_paragraph {
     background-color: #adddb8;
@@ -102,10 +102,10 @@ main {
     justify-content: center;
   }
 
-  /*makeup picture content*/
+  makeup picture content
 
   .makeup-content {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     width: 90%;
     display: flex;
     justify-content: center;
@@ -130,7 +130,7 @@ main {
       text-decoration: none;
     }
   }
-}
+} */
 
 /*footer part*/
 
